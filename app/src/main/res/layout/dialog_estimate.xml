@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/startDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date:"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/startDateEditText"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/endDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date:"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/endDateEditText"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/startDateText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date 2:"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/startDateEditText2"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/endDateText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date 2:"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/endDateEditText2"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:layout_marginLeft="20dp"/>
+
+
+
+</LinearLayout>

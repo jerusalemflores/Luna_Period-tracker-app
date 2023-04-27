@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkBoxBreakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="390dp"
+        android:text="yummy breakfast reminder" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFunActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxBreakfast"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="10dp"
+        android:text="go out and have fun reminder" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSleeping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxFunActivity"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="10dp"
+        android:text="sleep time reminder" />
+
+    <TimePicker
+        android:id="@+id/timePickerReminder"
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxSleeping"
+        android:layout_marginTop="12dp"
+        android:text="save"
+        android:layout_marginLeft="150dp"/>
+
+</RelativeLayout>

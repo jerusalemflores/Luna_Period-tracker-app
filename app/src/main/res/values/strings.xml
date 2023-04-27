@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Luna</string>
+    <string name="add_symptom_button_description">Add Symptom</string>
+    <string name="what_are_your_symptoms_today">what are your symptoms today?</string>
+    <string name="stomach_cramps">stomach cramps</string>
+    <string name="back_aches">back aches</string>
+    <string name="headache">headache</string>
+    <string name="tender_breasts">fatigue</string>
+    <string name="acne">acne</string>
+    <string name="bloating">bloating</string>
+    <string name="nausea">nausea</string>
+    <string name="enter_other_symptom">enter other symptom</string>
+    <string name="add">add</string>
+    <string name="welcome_back">welcome back!</string>
+    <string name="my_daily_insights">My daily insights</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="what_are_you_feeling_today">what are you feeling today?</string>
+    <string name="x">x</string>
+    <string name="your_insights">Your insights</string>
+
+    <string-array name="food_recommendations">
+        <item>Ginger!  Ginger has anti-inflammatory effects, which can soothe your achy muscles. You can consume a cup of ginger tea during menstruation. However, don’t consume more than 4 grams of ginger in a day because its excess can cause heartburn and stomach aches.</item>
+        <item>Yogurt! Its packed full of good bacteria that will help with your digestion and bloating. Having a happy tummy really is needed at this time of the month.</item>
+        <item>Bananas! Bananas are pretty great, due to their high level of vitamin B6 (its a great mood booster). They are also rich in potassium and magnesium, which can help with water retention and bloating. Bananas also help aid your digestive system, which is always an added bonus. </item>
+        <item>Leafy greens! Greens are packed full of iron, which you lose a heap of when on your period. So theres no better time to pack in as much of them as you can, spinach, kale, swiss chard, all will help with your iron levels.</item>
+        <item> Dark chocolate! It contains magnesium, which can help reduce cramps and mood swings associated with your period. Additionally, dark chocolate contains antioxidants that can help reduce inflammation in the body. :)</item>
+        <item>Salmon! :) Salmon is great during menstruation. Its rich in omega-3 fatty acids, which can help reduce inflammation and alleviate cramps. Additionally, salmon is high in vitamin D, which can help to boost your mood and energy levels during your period. Why not try incorporating some grilled salmon into your meal today? </item>
+        <item>Lentils and beans! They are rich in protein. Consuming beans and lentils provide you energy during periods and reduces fatigue and body aches.</item>
+        ...
+    </string-array>
+
+</resources>

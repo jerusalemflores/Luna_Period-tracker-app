@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodActivity"
+    android:background = "@drawable/gradient">
+
+
+    <TextView
+        android:id="@+id/food"
+        android:layout_width="219dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="32dp"
+        android:text="Food Rec of the Day! "
+        android:textSize="17sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/food_recommendation_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/food_recommendation_text_view"
+        android:layout_width="257dp"
+        android:layout_height="235dp"
+        android:background="@drawable/speech_bubble"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <Button
+        android:id="@+id/thumbs_up_button"
+        android:layout_width="57dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/baseline_thumb_up_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/dislike_button"
+        android:layout_width="57dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/thumbsdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/exitsquare"
+        android:drawableLeft="@drawable/exit"
+        android:textSize="5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
